@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .banner-section{
+    width: 100%;
+    display: block;
+    height: 100vh;
+    background-image: linear-gradient(rgba(164, 91, 90, 0.65), rgba(154, 84, 83, 0.65)),url("./SVimages/Romantic\ Couple\ Banner\ Background\,\ Pink\,\ Romantic\,\ Couple\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg");
+    background-image: linear-gradient(rgba(255, 102, 204, 0.79), rgba(255, 102, 204, 0.79)),
+                    url("./SVimages/nature.jpg");
+    background-color: rgba(0, 0, 0, 0.764);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+.banner-section {
+    width: 100%;
+    /* display: block; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95)), 
+    url("./SVimages/sachineVeena02.JPG");
+    /* background-image: linear-gradient(rgba(255, 102, 204, 0.79), rgba(255, 102, 204, 0.79)),
+                    url("./SVimages/nature.jpg"); */
+    background-color: rgba(0, 0, 0, 0.764);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media(min-width:980px){
+.banner-content{
+    position: absolute;
+    left: 203px;
+    top: 20px;
+
+}
+}
+
+@media(max-width:480px){
+    .banner-content{
+        position: absolute;
+        top: 26px;
+    
+    }
+    }
+
+.wi-content{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size:38px;
+    /* padding: 35px; */
+    text-align: center;
+    line-height: 1.5em;
+}
+
+@media(max-width:480px){
+.wi-content{
+    /* position: absolute; */
+    font-size: 24px;
+}
+}
+
+.sachin{
+    font-family: 'Rouge Script', sans-serif;
+    font-weight: 700;
+    transform: rotate(-2deg);
+    font-size: 90px;
+    padding-bottom: 5px;
+    color: whitesmoke;
+    text-align: center;
+    /* margin-top: 1.25em; */
+    margin-bottom: 20px;
+}
+
+.sachine1{
+    font-size: 60px;
+}
+
+@media(max-width:480px){
+    .sachin{
+        font-size: 60px;
+    }
+}
+
+
+
+.flower-div{
+    rotate: -180deg;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.flower-div1{
+    /* rotate: -180deg; */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.address{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    color: pink;
+
+}
+
+@media(max-width:480px){
+.address{
+    font-size: 20px;
+}
+}
+
+.clockdiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clockdiv{
+    color: #fff;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media(max-width:480px){
+.clockdiv{
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+}
+
+.clock-01{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clockdiv div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #83347141;
+    /* display: inline-block; */
+}
+@media(max-width:480px){
+.clockdiv div{
+    padding: 5px;
+}
+}
+
+.clockdiv div span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #82589f;
+    display: inline-block;
+}
+
+@media(max-width:480px){
+.clockdiv div span{
+    padding: 10px;
+}
+}
+
+.clock-01 .text{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.navbar{
+    height: 50px;
+    background:white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.82);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
